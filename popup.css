@@ -1,0 +1,26 @@
+body {
+  background-color: #eb6b49;
+}
+
+h3 {
+  color: white;
+  text-align: center;
+}
+
+#form {
+  width: 350px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+#sourceUrlInput {
+  font-size: 18px;
+  height: 30px;
+  margin: 0;
+  padding: 0;
+}
+
+#changeBtn {
+  height: 30px;
+}
