@@ -1,7 +1,6 @@
 function setURL(url) {
   document.getElementsByTagName("iframe").src = `${url}/?extension=true`;
   document.getElementById("sourceUrlInput").placeholder = url
-  console.log('----- document.getElementById("sourceUrlInput") ------', document.getElementById("sourceUrlInput"));
 }
 
 chrome.storage.local.get(["sourceUrl"], function ({ sourceUrl }) {
